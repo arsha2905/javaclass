@@ -6,8 +6,8 @@ public void division() {
 	int a=10/0;
 	System.out.println(a);
 	}
-	catch(ArithmeticException a) {
-		System.out.println("exception handling"+a);
+	catch(Exception e) {
+		System.out.println("exception handling"+e);
 	}
 	finally {
 		System.out.println("Java Program");
